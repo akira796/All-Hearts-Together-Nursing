@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83806060-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-83806060-9');
+    </script>
+
+    <meta charset="utf-8" />
+    <title>@Page.Title - All Hearts Together Nursing Care, LLC</title>
+    <link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.3.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+    <body>
+        
+      
+        <section class="navigation">
+            <div class="nav-container">
+                <div class="brand" style="max-width:100%;">
+                    <a href="~/Default">
+                        @*<span style="color:palevioletred; font-weight:bold; width:100%;">All Hearts Together Nursing, LLC</span><br/>*@
+                        <img src="~/Images/Logo.PNG" class="bannerLogo" style="max-height:173px;" />
+                    </a>
+                    
+                </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="~/Default">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!">About</a>
+                            <ul class="nav-dropdown">
+                                <li>
+                                    <a href="~/About#About">All Hearts Together Nursing Care</a>
+                                </li>
+                                <li>
+                                    <a href="~/About#Richelle">Richelle Glenn</a>
+                                </li>
+                                <li>
+                                    <a href="~/About#Services">Service Areas</a>
+                                </li>
+                                <li>
+                                    <a href="~/About#Partners">Affliations &amp; Associates</a>
+                                </li>
+                                <li>
+                                    <a href="~/About#Qualifications">Qualifications</a>
+                                </li>
+                                <li>
+                                    <a href="~/About#Partners">Volunteer Work</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">Services</a>
+                            <ul class="nav-dropdown">
+                                <li>
+                                    <a href="~/Services#Medication">Medication set-up, Education &amp; Refill</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Personalized">Personalized Bathing &amp; Grooming</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/Services#Skin">Skin Health &amp; Hair Care</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Ostomy">Ostomy &amp; Colostomy Management</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Meal">Meal Planning and Preparation</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Injection">Injection/Shot Teaching &amp; Therapy</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/Services#Tube">Tube Feeding</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/Services#Diabetes">Diabetes Management</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Catheter">Catheter & Wound Care</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Toileting">Toileting & Incontinence</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Discharge">Discharge/Transitional Supervision</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Support">Support & Companion Care</a>
+                                </li>
+                                @*<li>
+                                    <a href="~/Services#Couples">Couples Care</a>
+                                </li>*@
+                                <li>
+                                    <a href="~/Services#Stipulations">Stipulations</a>
+                                </li>
+                                <li>
+                                    <a href="~/Services#Pricing">Pricing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="~/Blog">Blog</a>
+                        </li>
+                       
+                        <li>
+                            <a href="~/Contact">Contact</a>
+                        </li>
+                        <li><a href="tel:+16233005300"><img src="~/Images/Phonepng.png" style="max-width:32px;" />(623) 300-5300</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p style="color:palevioletred;">&copy; @DateTime.Now.Year - All Hearts Together Nursing Care, LLC</p>
+                    <p>*All Hearts Together Nursing Care, LLC cannot be made liable for information that was inadvertently omitted or forgotten.</p>
+                </div>
+                
+            </div>
+            <div style="text-align:right;"><span style="color:white;">Design by <a href="https://www.akirawebsolutions.com">AkiraWebSolutions.com</a></span></div>
+        </footer>
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>
+
+<script>
+(function ($) { // Begin jQuery
+        $(function () { // DOM ready
+            // If a link has a dropdown, add sub menu toggle.
+            $('nav ul li a:not(:only-child)').click(function (e) {
+                $(this).siblings('.nav-dropdown').toggle();
+                // Close one dropdown when selecting another
+                $('.nav-dropdown').not($(this).siblings()).hide();
+                e.stopPropagation();
+            });
+            // Clicking away from dropdown will remove the dropdown class
+            $('html').click(function () {
+                $('.nav-dropdown').hide();
+            });
+            // Toggle open and close nav styles on click
+            $('#nav-toggle').click(function () {
+                $('nav ul').slideToggle();
+            });
+            // Hamburger to X toggle
+            $('#nav-toggle').on('click', function () {
+                this.classList.toggle('active');
+            });
+        }); // end DOM ready
+    })(jQuery); // end jQuery</script>

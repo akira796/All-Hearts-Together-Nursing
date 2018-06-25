@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>http://www.allheartsnursing.com/</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/Default</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/About</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/Services</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/Blog</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/Contact</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://www.allheartsnursing.com/Hospital%20Corpsman%20Duties%20performed%20by%20HM.docx.pdf</loc>
+   <lastmod>2018-04-12T15:59:28+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+</urlset>
